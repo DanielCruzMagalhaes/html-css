@@ -1,0 +1,23 @@
+body {
+  background: greenyellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: rgb(231, 255, 196);
+}
+#principal {
+  text-align: center;
+  background: rgba(214, 108, 108, 0.644);
+  border-radius: 10px;
+}
+h2 {
+  color: rgb(78, 92, 58);
+}
+.intermediario {
+  background: orange;
+}
+.avancado {
+  background: red;
+  color: aliceblue;
+  font-weight: bold;
+}
