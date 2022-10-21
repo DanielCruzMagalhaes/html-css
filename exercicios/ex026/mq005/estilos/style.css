@@ -1,2 +1,60 @@
 @charset "UTF-8";
-html,body{ background-color: lightblue;}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  background-color: rgb(148, 148, 148);
+}
+
+header {
+  background-color: rgb(163, 163, 163);
+}
+
+header > h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+menu {
+  display: block;
+}
+
+menu > ul {
+  list-style-type: none;
+}
+
+menu > ul > li > a /* tbm poderiamos escrever apenas "menu a" */ {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(83, 83, 83);
+  color: white;
+  border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+  background-color: rgb(182, 182, 182);
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  width: 90vw;
+  background-color: rgb(199, 199, 199);
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+article > h2 {
+  padding-bottom: 20px;
+}
+article > p {
+  text-align: justify;
+  margin-bottom:  20px;
+  text-indent: 20px;
+}
